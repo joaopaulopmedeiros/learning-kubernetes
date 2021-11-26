@@ -6,7 +6,7 @@
 O Kubernetes é uma plataforma de código aberto de nível de produção que orquestra o agendamento e a execução de contêineres de aplicativos dentro e entre clusters de computador.
 ### Composição de um Cluster
 Um cluster Kubernetes consiste em dois tipos de recursos:
-- A Camada de gerenciamento (Control Plane) coordena o cluster
+- A Camada de gerenciamento (Control Panel) coordena o cluster
 - Os Nós (Nodes) são os nós de processamento que executam aplicativos
 
 ### Exemplo de deployment através de arquivo .yaml
@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: myapp-docker-image
+        image: myapp-image
         resources:
           limits:
             memory: "128Mi"
